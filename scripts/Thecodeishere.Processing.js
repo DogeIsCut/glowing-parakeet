@@ -1,9 +1,10 @@
 
 
-draw = function() {
+var drawIt = function() {
     stroke(mouseX, 62, mouseY);
     strokeWeight(20);
     fill(mouseX, mouseY, 0);
     ellipse(mouseX, mouseY, mouseY, mouseX);
-    gragra();
+    
 };
+drawIt
