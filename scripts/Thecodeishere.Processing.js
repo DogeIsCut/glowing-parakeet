@@ -7,4 +7,4 @@ var drawIt = function() {
     ellipse(mouseX, mouseY, mouseY, mouseX);
     
 };
-drawIt
+drawIt();
