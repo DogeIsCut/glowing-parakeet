@@ -5,4 +5,5 @@ draw = function() {
     strokeWeight(20);
     fill(mouseX, mouseY, 0);
     ellipse(mouseX, mouseY, mouseY, mouseX);
+    gragra();
 };
